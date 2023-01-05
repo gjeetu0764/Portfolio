@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-item {
+    width: 70%;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-item li {
+    list-style: none;
+    padding: 2px 6px;
+}
+
+.nav-item li a {
+    text-decoration: none;
+    color: rgb(125, 210, 118);
+    font-size: 30px;
+}
+
+.nav-item li a:hover {
+    color: rgb(192, 37, 37);
+}
+
+.background {
+    background-color: grey;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.firstsection {
+    height: 50vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-big {
+    font-family: "Piazzolla", serif;
+    font-weight: bold;
+    font-size: 41px;
+    text-align: center;
+}
+
+.text-small {
+    font-family: "Sansita Swashed", cursive;
+    font-size: 18px;
+    text-align: center;
+}
+.service {background-color: aquamarine;
+    height: 40vh;}
+.service h1 {
+    margin-top:30px;
+     text-align: center;
+     font-size: 2em;
+     font-style: italic;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#service {
+    margin: 34px;
+    display: flex;
+    font-size: larger;
+    color: brown;
+}
+
+#service .box {
+    padding: 45px;
+    margin: 3px 6px;
+    border-radius: 28px;
+}
+
+
+
+#service .box p {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
